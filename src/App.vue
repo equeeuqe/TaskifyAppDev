@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> -->
+      <!-- <router-link to="/login">Log In</router-link> -->
+      <app-footer v-bind:title="title"></app-footer>
     </div>
     <router-view/>
   </div>
@@ -27,6 +29,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #fad744;
 }
 </style>
