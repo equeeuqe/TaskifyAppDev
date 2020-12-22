@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import FirstPage from '../views/FirstPage.vue'
 import LogIn from '../views/LogIn.vue'
+import SignUp from '../views/SignUp.vue'
 import Footer from '../components/Footer.vue'
 
 Vue.use(VueRouter)
@@ -30,6 +31,11 @@ const routes = [
     path: '/login',
     name: 'LogIn',
     component: LogIn
+  },
+  {
+    path: '/signup',
+    name: '/SignUp',
+    component: SignUp
   },
   {
     path: '/footer',

@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <button id="SignUp"><router-link to="">Sign Up</router-link></button>
+    <button id="SignUp"><router-link to="/SignUp">Sign Up</router-link></button>
     <button id="LogIn"><router-link to="/LogIn">Log In</router-link></button>
   </div>
 </template>
@@ -29,6 +29,8 @@ h1{
   border-radius: 12px;
   font-size: 16px;
   padding: 15px 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
 }
 
 #SignUp:hover {
@@ -44,6 +46,7 @@ h1{
   border-radius: 12px;
   font-size: 16px;
   padding: 15px 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #LogIn:hover{
