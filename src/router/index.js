@@ -5,6 +5,7 @@ import FirstPage from '../views/FirstPage.vue'
 import LogIn from '../views/LogIn.vue'
 import SignUp from '../views/SignUp.vue'
 import Footer from '../components/Footer.vue'
+import User from '../views/User.vue'
 
 Vue.use(VueRouter)
 
@@ -41,6 +42,11 @@ const routes = [
     path: '/footer',
     name: 'Footer',
     component: Footer
+  },
+  {
+    path: '/user',
+    name: 'User',
+    component: User
   }
 ]
 
