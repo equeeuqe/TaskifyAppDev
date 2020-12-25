@@ -47,6 +47,11 @@ const routes = [
     path: '/user',
     name: 'User',
     component: User
+  },
+  {
+    path: '/todo',
+    name: 'ToDo',
+    component: ToDo
   }
 ]
 
