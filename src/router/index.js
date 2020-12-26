@@ -6,6 +6,7 @@ import LogIn from '../views/LogIn.vue'
 import SignUp from '../views/SignUp.vue'
 import Footer from '../components/Footer.vue'
 import User from '../views/User.vue'
+import Shared from '../views/shared.vue'
 
 Vue.use(VueRouter)
 
@@ -52,6 +53,11 @@ const routes = [
     path: '/todo',
     name: 'ToDo',
     component: ToDo
+  },
+  {
+    path: '/shared',
+    name: 'Shared',
+    component: Shared
   }
 ]
 
